@@ -38,8 +38,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Crear Usuario</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Bootstrap 5 con integridad -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-9ndCyUa6mY+3gkPs4+1GVYXJ6t33c6R9q+fI1dr/2Q4pxK3x9u9gx1sjfUvZ5+si" 
+        crossorigin="anonymous">
+    <!-- SweetAlert2 con integridad -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/sweetalert2@11" 
+        integrity="sha384-kQ5MqaH2l3/SV1bY2E8x0sKvEo0Ft/KtQ8f4OzY5SvVf4Q0x7a2RQQZ2vG0+2k9z" 
+        crossorigin="anonymous"></script>
 </head>
 <body class="bg-light d-flex justify-content-center align-items-center vh-100">
 
