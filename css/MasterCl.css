@@ -1,0 +1,35 @@
+body 
+{ 
+    background-color: #f9fafc; 
+    font-family: 'Poppins', sans-serif; 
+}
+.navbar 
+{ 
+    background: linear-gradient(90deg, #007bff, #00bcd4); 
+}
+.navbar-brand 
+{ 
+    font-weight: bold; font-size: 1.6rem;
+ }
+.card:hover 
+{ 
+    transform: translateY(-5px); transition:0.3s; 
+}
+.card-title 
+{ 
+    font-weight:700; 
+}
+.card-text 
+{ 
+    font-size:0.95rem; color:#555; 
+}
+.btn-primary 
+{ 
+    background-color: #007bff; 
+    border: none; 
+    font-weight: 500; 
+}
+.btn-primary:hover 
+{
+     background-color: #0056b3;
+    }

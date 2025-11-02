@@ -1,0 +1,17 @@
+.card-evento {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-evento:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.img-evento {
+    width: 100%;
+    height: 200px; /* tamaño medio, no tan pequeño */
+    object-fit: cover;
+    border-bottom: 3px solid #007bff;
+}

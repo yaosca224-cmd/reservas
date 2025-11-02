@@ -1,0 +1,72 @@
+
+body {
+    background-color: #f5f7fa;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #007bff, #00bcd4);
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+/* Carrusel */
+.carousel-container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+.carousel-inner img {
+    height: 380px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.carousel {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Secciones (cartas) */
+.section {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    margin: 40px auto;
+    overflow: hidden;
+    max-width: 80%; /* centradas y más estrechas */
+    text-align: left;
+}
+.section img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+.section .text {
+    padding: 40px;
+}
+.section h2 {
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.section p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Botón principal */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 12px 40px;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
